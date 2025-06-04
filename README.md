@@ -1,4 +1,4 @@
-# Clinical Trials Machine Learning Project
+# Clinical Trials App Project
 
 This repository contains a complete machine learning project that analyzes clinical trial data to predict adverse events using data from the ClinicalTrials.gov API. The project includes data processing, model development, API deployment, and a user-friendly web interface.
 
