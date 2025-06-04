@@ -1,0 +1,11 @@
+services:
+  app:
+    container_name: model_v2_linux
+    platform: "linux/amd64"
+    build : .
+    volumes:
+     - .:/app
+    environment:
+      - PORT=8080
+    ports:
+     - '8080:8080'
