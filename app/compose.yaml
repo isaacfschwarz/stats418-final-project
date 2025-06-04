@@ -1,0 +1,9 @@
+services:
+  streamlit-app:
+    container_name: streamlit_app
+    platform: "linux/amd64"
+    build: .
+    environment:
+      - PORT=8501
+    ports:
+      - '8501:8501'
